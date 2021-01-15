@@ -52,7 +52,75 @@
 
         <p>I can add audio files to my page</p>
         <audio controls><source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3"></audio>
-    </main>
+
+        <p>I can also add videos</p>
+        <video><source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"></video>
+
+        <p>I could add things to this canvas, but I don't want to</p>
+        <canvas id="testCanvas" width="100" height="50"></canvas>
+
+        <p>I can use SVG to make a circle</p>
+        <svg width=150 height=150>
+            <circle cx="70" cy="70" r="70" stroke="blue" stroke-width="2" fill="teal" />
+        </svg>
+        </main>
+
+        <p>I can make a form</p>
+        <form>
+            <fieldset>
+            <legend>Section 1</legend>
+            <select>
+                <optgroup label="Numbers">
+                <option>1</option>
+                <option>2</option>
+                </optgroup>
+                <optgroup label="Letters">
+                <option>A</option>
+                <option>B</option>
+                </optgroup>
+            </select>
+            <input type="button" value="Button"><br>
+            <input type=checkbox><br>
+            <input type=date><br>
+            </fieldset>
+            <input type=file><br>
+            <input type=month><br>
+            <input type=number><br>
+            <input type=radio><br>
+            <input type=password><br>
+            <input type=image><br>
+            <textarea>Text goes here</textarea><br>
+            <input list="list">
+            <datalist>
+                <option value="Option 1">
+                <option value="Option 2">
+            </datalist>
+            <br>
+            <input type=submit><br>
+        </form>
+        <p>Or a table</p>
+        <table>
+            <colgroup>
+                <col span=2 style="background-color: slategray">
+            </colgroup>
+            <caption>Sample Table</caption>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </table>
+
+        <p>Or, finally, various interactive elements</p>
+        <details>
+            <summary>Expand</summary>
+            <p>Expanded Content</p>
+        </details>
+        <button>Click</button>
+        <template>Hidden</template>
     <footer> 
         <p>Made for CSE 110</p>
     </footer>
